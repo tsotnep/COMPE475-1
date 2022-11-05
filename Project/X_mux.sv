@@ -1,5 +1,5 @@
 module X_mux(
-	
+	//you are missing bitwidths here [3:0]? [31:0] ?
 	input input_1, 		//Rd_data or Mem_addr == ALU result
 	input input_2,			//data from memory == DMEM
 	input	select,
