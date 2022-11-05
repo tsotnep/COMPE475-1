@@ -11,7 +11,7 @@ module src1mux(
 
 always @(Rn || Rs || PC_out || select)
 begin
-
+//rewrite things below as a case statement
 	if(select == 2'b00) begin
 		src1 <= Rn;
 	end
